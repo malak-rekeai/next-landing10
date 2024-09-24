@@ -1,0 +1,91 @@
+/* Container styling */
+.container {
+    /* You can add any necessary styling for the container here */
+  }
+  
+  /* Content styling */
+  .content {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  /* Header styling */
+  .header {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Image container */
+  .imgCont {
+    position: relative;
+     flex: 1;
+     width: 100%;
+     max-width: 600px;
+     height: 500px;
+  }
+  .img{
+    object-fit: contain;
+    animation: move 3s infinite alternate;
+  }
+    @keyframes move {
+        0% {
+        transform: translateY(10px);
+        }
+        100% {
+        transform: translateY(-10px);
+        }
+    }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 20px 10px;
+    border: 1px solid #ffffff;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    width: 450px;
+  }
+  
+  .form textarea {
+    height: 150px;
+  }
+  
+  /* Mobile Responsive Styling */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px;
+    }
+  
+    .header {
+      font-size: 2.5rem;
+    }
+  
+    .imgCont {
+      height: 300px;
+      max-width: 100%;
+    }
+  
+    .form input,
+    .form textarea {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.container {
+  align-items: center;
+  justify-content: center;
+}
+.head {
+font-size: 4rem;
+margin-bottom: 30px;
+
+
+}
+.items{
+    display: flex;
+    gap: 50px;
+  
+
+}
+.item{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    position: relative;
+
+}
+.item:nth-child(1){
+    background-image: url("/illustration.png");
+    background-size: cover;
+}
+.item:nth-child(2){
+    background-image: url("/apps.jpg");
+    background-size: cover;
+}
+.item:nth-child(3){
+    background-image: url("/websites.jpg");
+    background-size: cover;
+}
+
+.title{
+position: absolute;
+font-size: 28px;
+font-weight: bolder;
+top: 90%;
+left: 10%;
+}
+/* hover title */
+.title:hover {
+    color: #53c28b;
+   
+}
