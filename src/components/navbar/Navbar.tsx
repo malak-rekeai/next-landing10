@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Style from "./navbar.module.css";
+import { DarkLight } from "../DarkLight/DarkLight";
+import Button from "../button/Button";
 
 const Navbar = () => {
   const navs = [
@@ -14,9 +16,10 @@ const Navbar = () => {
   return (
     <div className={Style.container}>
       <Link href="/" className={Style.logo}>
-        Lamamia
+        MALAK
       </Link>
       <div className={Style.link}>
+        <DarkLight />
         {navs.map((nav) => {
           return (
               <Link key={nav.id} href={nav.url} >
@@ -25,7 +28,7 @@ const Navbar = () => {
               </Link>
           );
         })}
-        <button className={Style.logout}>Logout</button>
+        <Button text="Login" url="/login" />
       </div>
     </div>
   );

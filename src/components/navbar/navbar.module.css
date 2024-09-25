@@ -15,12 +15,3 @@ font-size: 1.5rem;
     gap: 20px;
 
 }
-.logout{
-    background: #53c28b;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-
-}

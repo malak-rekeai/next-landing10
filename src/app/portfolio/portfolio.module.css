@@ -41,9 +41,10 @@ font-size: 28px;
 font-weight: bolder;
 top: 90%;
 left: 10%;
+color: #ffffff;
 }
 /* hover title */
 .title:hover {
-    color: #53c28b;
+    color: #6973EB;
    
 }

@@ -5,12 +5,9 @@ export default function Home() {
   return (
     <div className={Style.container}>
       <div className={Style.text}>
-        <h1 className={Style.title}>Better Design for your digital products</h1>
+        <h1 className={Style.title}>Elevate Your Digital Experience        </h1>
         <p className={Style.desc}>
-          Welcome to my portfolio! I am a software engineer with a passion for
-          creating and building web applications. I specialize in front-end
-          development and design. I am currently looking for new opportunities
-          to work with a team of talented individuals to build amazing products.
+        With a strong foundation in modern frameworks and design principles, I am committed to delivering high-quality digital products that meet both business goals and user needs. I am eager to collaborate with a dynamic team of innovators to bring visionary ideas to life and shape the future of technology together.
         </p>
         <Button text="See Our Works" url="/portfolio" />
         
